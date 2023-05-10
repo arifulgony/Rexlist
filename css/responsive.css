@@ -1,0 +1,652 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+}
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* ============ Page-01-Responsive-Css================== */
+    .home h1{
+        font-size: 63px;
+    }
+	.ctg-list button {
+        width: 136px;
+    }
+    .ctg-item img {
+        height: 40px;
+    }
+    .ctg-active:before {
+        left: 35%;
+        z-index: -1;
+    }
+    .ctg-item {
+        font-size: 13px;
+        padding: 20px 0;
+    }
+    .content-title h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .content-title p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 45px;
+    }
+    .cummunity-left h1 {
+        font-size: 50px;
+    }
+    .cummunity-left {
+        margin: 20px 0;
+    }
+    .happening-item {
+        width: 305px;
+        height: 340px;
+    }
+    .item-contact {
+        font-size: 11px;
+    }
+    .party-listing-card-content img {
+        width: 100%;
+        height: 330px;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 9%;
+        top: -15%;
+    }
+    .party-listing-card-content h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .party-listing-card-footer {
+        margin: 0 15px 25px 20px;
+    }
+    .party-listing-right h3 {
+        font-size: 37px;
+        line-height: 48px;
+        margin-top: 50px;
+    }
+     /* ============ Page-03-Responsive-Css================== */
+    .food-price span {
+        padding: 0px 0 0 0;
+        position: relative;
+        left: -18px;
+        font-size: 14px;
+    }
+    /* ============ Page-05-Responsive-Css================== */
+    .author-img img {
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 0;
+        width: 100px;
+    }
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ============ Page-01-Responsive-Css================== */
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home-content h1 {
+        font-size: 46px;
+        line-height: 45px;
+    }
+    .home-input{
+        display: none;
+    }
+    .ctg-list {
+        display: none;
+    }
+    section#listing-section a {
+        top: 28px !important;
+        left: 0 !important;
+    }
+    .cummunity-right-wrap{
+        display: none;
+    }
+    .party-listing-card-content img {
+        width: 100%;
+        height: 330px;
+    }
+    .party-listing-right{
+        padding: 20px 0 0 0;
+    }
+    .party-listing-right h3 {
+        font-size: 35px;
+        line-height: 50px;
+        padding: 25px 0 15px 0;
+        margin: 0;
+    }
+    .party-listing-right p{
+        margin-bottom: 15px;
+    }
+    .party-listing-left button{
+        display: none !important;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 10%;
+        top: -7%;
+    }
+    .happening-item-wrap button.slick-next{
+        top: -7%;
+    }
+    .happening-item{
+        width: 225px;
+        height: 260px;
+    }
+    .happening-content h3 {
+        font-size: 27px;
+    }
+    .happening-content {
+        padding: 7px;
+    }
+    .item-contact {
+        font-size: 10px;
+        margin: 145px 0 0 16px;
+    }
+    .footer-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer-button {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .footer-button a {
+        margin: 10px 0;
+        display: block;
+        padding: 2px;
+    }
+    .blog-left-footer {
+        margin: 40px 0 40px 0;
+    }
+    /* ============ Page-05-Responsive-Css================== */
+    .author-img img {
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 0;
+        width: 100px;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    /* ============ Page-10-Responsive-Css================== */
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+}
+/* SM Small Device */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* ============ Page-01-Responsive-Css================== */
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home p {
+        font-size: 12px;
+    }
+    .home h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .home-input {
+        width: 100%;
+        border-color: #ffffff96;
+    }
+    .home-input button{
+        border-color: #ffffff96;
+    }
+    .btn-m-top {
+        position: relative;
+        top: -38px !important;
+        left: 189px !important;
+    }
+    .home-right-wrap{
+        display: none;
+    }
+    .ctg-list {
+        display: none;
+    }
+    .content-title h2 {
+        font-size: 44px;
+        line-height: 58px;
+    }
+    .cummunity-right-wrap{
+        display: none;
+    }
+    .cummunity-left h1 {
+        font-size: 50px;
+    }
+    .cummunity-left p {
+        font-size: 14px;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 14%;
+    }
+    .sliding-box button.slick-next,
+    .sliding-box button.slick-prev{
+        display: none !important;
+    }
+    .happening-content{
+        padding: 10px;
+    }
+    .happening-content h3 {
+        font-size: 17px;
+    }
+    .happening-content span {
+        font-size: 13px;
+    }
+    .happening-content p {
+        font-size: 10px;
+    }
+    .item-contact {
+        display: none;
+    }
+    .happening-item {
+        width: 175px;
+        height: 200px;
+        margin: 0 -10px;
+    }
+    section#listing-section {
+        overflow-x: hidden;
+    }
+    .party-listing-right{
+        display: none;
+    }
+    .footer-img-wrap {
+        display: none;
+    }
+    .footer-content-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer-button {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .footer-button a {
+        margin: 10px 0;
+        display: block;
+        padding: 2px;
+    }
+    .blog-left-footer {
+        margin: 30px 0 30px 0;
+    }
+    .author-img img {
+        height: 80px;
+        width: 80px;
+        margin: 0 12px;
+    }
+    .author-details p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .recent-item-content span {
+        font-size: 11px;
+    }
+    .comment-box ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .comment-box ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    /* ============ Page-10-Responsive-Css================== */
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+}
+/* Extra small Device. */
+/* @media (max-width: 375px)  */
+@media only screen and (min-width: 280px) and (max-width: 575px){
+    /* ============ Page-01-Responsive-Css================== */
+    .logo img {
+        height: 40px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    .dropdown-menu.header-dropdown.show a {
+        position: relative;
+        left: 5%;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    ul.navbar-nav.manu li {
+        width: 100%;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .home h1 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .home-right{
+        display: none;
+    }
+    .home-input {
+        display: none;
+    }
+    .home-right-wrap{
+        display: none;
+    }
+    .btn-m-top {
+        position: relative;
+        top: -38px !important;
+        left: 189px !important;
+    }
+    .ctg-list{
+        display: none;
+    }
+    .ctg-content{
+        margin-top: 0;
+    }
+    .ctg-location p {
+        margin: 0;
+        display: block;
+    }
+    .content-title a {
+        padding: 10px 20px;
+    }
+    .content-title a:hover {
+        padding: 10px 20px;
+    }
+    a.btn-m-top.all-btn-css.dflt-btn {
+        left: 0 !important;
+        top: 0 !important;
+    }
+    .content-title h2 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .content-title p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 0 0 20px 0;
+    }
+    .cummunity-right-wrap{
+        display: none;
+    }
+    .cummunity-left {
+        margin: 70px 0;
+    }
+    .cummunity-left h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .cummunity-left p {
+        font-size: 14px;
+        
+    }
+    .happening-item-wrap button{
+        display: none !important;
+    }
+    .happening-content{
+        padding: 0px;
+    }
+    .happening-content h3{
+        font-size: 12px;
+    }
+    .happening-content span {
+        font-size: 9px;
+    }
+    .happening-content p {
+        font-size: 9px;
+        padding: 0;
+    }
+    .item-contact {
+        display: none;
+    }
+    .happening-item {
+        width: 155px;
+        height: 200px;
+        margin: 0 -10px;
+    }
+    .party-listing-card-content h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .party-listing-right {
+        display: none;
+    }
+    .party-listing-left{
+        margin: 0;
+    }
+    .party-listing-left button {
+        display: none !important;
+    }
+    .party-listing-card-footer{
+        margin-top: 20px;
+    }
+    .i-map iframe{
+        height: 300px;
+    }
+    .footer-content-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content h1 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .footer-button a{
+        display: block;
+        margin: 10px 0;
+    }
+    .counter-left-img img {
+        width: 100%;
+    }
+    .counter-left p{
+        display: none;
+    }
+    .counter-right{
+        padding: 0;
+    }
+    .counter-right h1{
+        font-size: 36px;
+    }
+    .counter-number p{
+        font-size: 40px;
+    }
+    .counter-logo img{
+        height: 40px;
+    }
+    .footer-img-wrap {
+        display: none;
+    }
+    .listing-right-title a {
+        padding: 12px 18px;
+        font-size: 10px;
+    }
+    .listing-right-title a:hover {
+        padding: 5px 12px;
+        font-size: 10px;
+    }
+    .listing-right-footer a {
+        padding: 5px 12px;
+        margin: 0;
+    }
+    .top-info-overview p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .client-review-img img {
+        height: 80px;
+    }
+    .review-star ul li {
+        font-size: 12px;
+        padding: 0;
+    }
+    .client-comment {
+        font-size: 14px;
+        margin: 5px 0 0 0px;
+    }
+    .add-review-btn.float-right button:nth-child(1) {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .blog-left-footer {
+        margin: 65px 0;
+    }
+    a.recent-post-box img {
+        width: 100%;
+        margin: 40px 0;
+    }
+    .blog-left-footer a {
+        padding: 7px 13px;
+        margin: 0 0px;
+    }
+    .author-img img {
+        height: 80px;
+        width: 80px;
+        margin: 0 12px;
+    }
+    .author-details p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .recent-item-content span {
+        font-size: 11px;
+    }
+    .comment-box ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .comment-box ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .drop-file-area {
+        height: 300px;
+        margin: 30px 0px 45px 0px;
+    }
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+    .contact-card {
+        width: 100%;
+    }
+    .contact-form-box button{
+        left: 20px;
+    }
+    .contact-live-map iframe {
+        height: 350px;
+    }
+    .contact-form-title h3 {
+        font-size: 37px;
+    }
+}

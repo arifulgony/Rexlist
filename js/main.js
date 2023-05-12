@@ -81,6 +81,16 @@
   document.querySelector('.happening-item-wrap button.slick-prev').innerHTML = '&lt;';
   document.querySelector('.happening-item-wrap button.slick-next').innerHTML = '>';
 
+    //Happening Cities sm
+    $('.multiple-item').slick({
+      infinite: true,
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      rows: 1,
+    });
+    document.querySelector('.happening-item-wrap button.slick-prev').innerHTML = '&lt;';
+    document.querySelector('.happening-item-wrap button.slick-next').innerHTML = '>';
+  
   // Conuter-Section 
   $(document).ready(function () {
     $(".count").counterUp({

@@ -92,6 +92,9 @@
         margin: 0 0;
         width: 100px;
     }
+    .social-checkbox{
+        font-size: 12px;
+    }
 }
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -720,6 +723,12 @@
         line-height: 22px;
         margin: 0;
     }
+    .sm-replay{
+
+        margin-top: 90px  ;
+        margin-left: -70px;
+        width: 280px;
+    }
     .recent-item-content span {
         font-size: 11px;
     }
@@ -760,5 +769,11 @@
     }
     .contact-form-title h3 {
         font-size: 37px;
+    }
+    .select-div{
+        width: 115px;
+       
+        margin: 50px 20px 10px -50px;
+      
     }
 }
